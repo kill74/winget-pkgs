@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+PackageIdentifier: ToneRelay.ToneRelay
+PackageVersion: 0.1.0
+PackageLocale: en-US
+Publisher: ToneRelay
+PublisherUrl: https://tonerelay.com/
+PackageName: ToneRelay
+PackageUrl: https://tonerelay.com/
+License: Proprietary
+ShortDescription: Send Windows audio to HomePod or HomePod mini on the same local network.
+Description: ToneRelay is a Windows 10/11 application that sends the default audio output to HomePod or HomePod mini on the same local network.
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
