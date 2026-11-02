@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: ToneRelay.ToneRelay
+PackageVersion: 0.1.0
+InstallerType: nsis
+Installers:
+- Architecture: x64
+  InstallerUrl: https://tonerelay.com/downloads/0.1.0-firewall-repair/ToneRelay-0.1.0-windows-x64-unsigned-setup.exe
+  InstallerSha256: 7484f2b21f3b72c6af2418a4312ce60eaea88fd640d5b916ad578a4d38980ee4
+  InstallerSwitches:
+    Silent: /S
+ManifestType: installer
+ManifestVersion: 1.12.0
